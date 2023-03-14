@@ -33,7 +33,7 @@ player:
     # When a player receive the bow
     received: "&7Hey &e%player-name%&7, you received a &dmagic bow &7from &f%player-executor%&7."
     # When a player give the bow to another player
-    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7 to: &f%player-target%&7."
+    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7to: &f%player-target%&7."
   take:
     # When a player take a bow from his own
     bow: "&7Hey &e%player-name%&7, you have successfully obtained the &dmagic bow&7."
@@ -51,8 +51,9 @@ player:
 help:
   generic: # Message shown through the help command (/freeze help)
     - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"
-    - "&6/freeze help &8- &7view the generic help menu (this)."
-    - "&6/freeze freeze <player/*> &8- &7freezes all online players."
-    - "&6/freeze thaw <player/*> &8- &7freezes all online players."
-    - "&6/freeze reload &8- &7reload the plugin."
+    - "&6/teleportbow help &8- &7view the generic help menu (this)."
+    - "&6/teleportbow give <player/*> &8- &7gives someone a brand new magic bow."
+    - "&6/teleportbow take &8- &7get a brand new magic bow, all for yourself."
+    - "&6/teleportbow reload &8- &7reload the plugin."
+    - "&6Plugin alias &8- &7tpbow &8- &7macicbow."
     - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"

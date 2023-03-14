@@ -19,46 +19,10 @@
 # Do not modify this value, it may CORRUPT the entire config file!
 version: v1.0-Relase
 
-# Those who will be listed here can never be frozen
-exempt:
-  enabled: true
-  names:
-    - "SadShrimpy" # SadShrimpy cannot be frozen from wnyone
-    #- "Other names..."
-  uuids:
-    - "cd9899eba5724029a6c6ccc8b96291e9" # This UUID cannot be frozen from anyone
-    #- "cd9899eb-a572-4029-a6c6-ccc8b96291e9" # UUIDs with this format are also accepted
-    #- "Other UUIDs..."
-
-# Recognized actions, which a player might perform under freezing
-actions: # The plugin will prevent the execution of the TRUE actions
-    # (The actions will be cancelled)
-  recognised:
-    # When the velocity of a player changes
-    PlayerVelocityEvent: true
-    # When the player get teleported
-    PlayerTeleportEvent: true
-    # When the player is about to teleport because it is in contact with a portal
-    PlayerPortalEvent: true
-    # When the player right-clicks an entity
-    PlayerInteractEntityEvent: true
-    # When the player is almost about to enter the bed
-    PlayerBedEnterEvent: true
-    # When the player is leaving a bed
-    PlayerBedLeaveEvent: true
-    # When the player is moving
-    PlayerMoveEvent: true
-    # When the player is placing a block
-    BlockBreakEvent: true
-    # When a player is destroying a block
-    BlockPlaceEvent: true
-    # When the player try to send a chat message
-    AsyncPlayerChatEvent: true
-    # When the player's food level changes
-    FoodLevelChangeEvent: true
-    # Whenever the player runs a command
-    PlayerCommandPreprocessEvent: true
-    # When the player is damaged by an entity
-    EntityDamageByEntityEvent: true
-    # When the player do something related to an inventory event (open chest...)
-    InventoryOpenEvent: true
+magic-bow:
+  name: "&dMagic &6Fantastic &Bow"
+  lore:
+    - "&7Hm...."
+    - "&7Maybe I should try to"
+    - "&eshoot &7an arrow..."
+  unbreakable: true

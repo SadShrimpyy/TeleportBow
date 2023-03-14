@@ -18,3 +18,11 @@
 
 # Do not modify this value, it may CORRUPT the entire config file!
 version: v1.0-Relase
+
+magic-bow:
+  name: "&dMagic &6Fantastic &bBow"
+  lore:
+    - "&7Hm...."
+    - "&7Maybe I should try to"
+    - "&eshoot &7an arrow..."
+  unbreakable: true

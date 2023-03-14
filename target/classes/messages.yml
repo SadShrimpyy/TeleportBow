@@ -17,7 +17,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Plugin's related messages
-prefix: "&7[&5Teleport&cBow&7] &8> &7" # Prefix of the plugin
+prefix: "&7[&cTeleport&6Bow&7] &8> &7" # Prefix of the plugin
 reloaded:
   correctly: "&7Plugin reloaded &acorrectly&7."
   incorrectly: "&7Plugin reloaded &cincorrectly&7."
@@ -30,21 +30,18 @@ player:
     # When a player try to execute a command that isn't exist
     cmd-not-found: "&7Hey &e%player-name%&7, sorry but the requested command &b(%command%) &cisn't &7found&7."
   give:
-    # When a player is frozen
-    target: "&7Hey &e%player-name%&7, you were &bfrozen &7by &f%player-executor%&7."
-    # When a player try to freeze a player that can't be frozen
-    exempt: "&7Hey &e%player-name%&7, you can &cnot &bfreeze &f%player-target%&7."
-    # When a player freezes another person (private msg)
-    executor: "&7Hey, you just &bfroze &f%player-target%&7."
-    # When a player try to thaw a player that is already frozen
-    already-frozen: "&7Hey, the player &f%player-target% &7is already &bfrozen&7."
+    # When a player receive the bow
+    received: "&7Hey &e%player-name%&7, you received a &dmagic bow &7from &f%player-executor%&7."
+    # When a player give the bow to another player
+    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7 to: &f%player-target%&7."
   take:
-    # When a player was thawed
-    target: "&7Hey &e%player-name%&7, you were &bthawed out &7by &f%player-executor%&7."
-    # When a player thaws another person (private msg)
-    executor: "&7Hey, you just &bthawed out &f%player-target%&7."
-    # When a player try to thaw a player that is already thawed
-    already-thawed: "&7Hey, the player &f%player-target% &7is already &bthawed&7."
+    # When a player take a bow from his own
+    bow: "&7Hey &e%player-name%&7, you have successfully obtained the &dmagic bow&7."
+  arrow:
+    # When the arrow has landed, and the player is being teleported
+    land: "&7Hey, you have just been &fteleported&7!"
+    # When the arrow was fired
+    launched: "&7Hey, rour &dmagic arrow &7has been &cfired&7!"
   generic:
     # When a player try freeze a player that is not online
     no-online: "&7Hey &e%player-name%&7, sorry there are &cno &eplayers &7present in the server."
@@ -53,9 +50,10 @@ player:
 
 help:
   generic: # Message shown through the help command (/freeze help)
-    - "&7&m-------------------&7[ &bSimple&fFreeze &7]&m-------------------"
-    - "&6/freeze help &8- &7view the generic help menu (this)."
-    - "&6/freeze freeze <player/*> &8- &7freezes all online players."
-    - "&6/freeze thaw <player/*> &8- &7freezes all online players."
-    - "&6/freeze reload &8- &7reload the plugin."
-    - "&7&m-------------------&7[ &bSimple&fFreeze &7]&m-------------------"
+    - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"
+    - "&6/teleportbow help &8- &7view the generic help menu (this)."
+    - "&6/teleportbow give <player/*> &8- &7gives someone a brand new magic bow."
+    - "&6/teleportbow take &8- &7get a brand new magic bow, all for yourself."
+    - "&6/teleportbow reload &8- &7reload the plugin."
+    - "&6Plugin alias &8- &7tpbow &8- &7macicbow."
+    - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"

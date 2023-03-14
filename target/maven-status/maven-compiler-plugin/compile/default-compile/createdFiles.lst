@@ -1,7 +1,6 @@
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadPermissions.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadLibrary.class
 com\sadshrimpy\teleportbow\commands\subcommands\args0\ReloadCommand.class
-com\sadshrimpy\teleportbow\commands\subcommands\args0\HelpSpecificCommand.class
 com\sadshrimpy\teleportbow\commands\CommandManager.class
 com\sadshrimpy\teleportbow\utils\files\defaults\MessagesFile.class
 com\sadshrimpy\teleportbow\commands\TabCompleterManager.class
@@ -14,13 +13,14 @@ com\sadshrimpy\teleportbow\utils\files\FilesBuilder.class
 com\sadshrimpy\teleportbow\commands\subcommands\args0\give\GiveCommand.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadGenerics.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadConfigurations.class
-com\sadshrimpy\teleportbow\commands\MotdType.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadMessages.class
+com\sadshrimpy\teleportbow\builders\MagicBow.class
 com\sadshrimpy\teleportbow\commands\subcommands\args0\HelpCommand.class
 com\sadshrimpy\teleportbow\TeleportBow.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadFiles.class
 com\sadshrimpy\teleportbow\commands\subcommands\args0\CreditsCommand.class
 com\sadshrimpy\teleportbow\commands\CommandSyntax.class
+com\sadshrimpy\teleportbow\events\EventsManager.class
 com\sadshrimpy\teleportbow\utils\files\handlers\YamlHandler.class
 com\sadshrimpy\teleportbow\utils\files\handlers\FilesIn.class
 com\sadshrimpy\teleportbow\utils\sadlibrary\SadPlaceholders.class

@@ -1,10 +1,14 @@
 package com.sadshrimpy.teleportbow.builders;
 
+import com.sadshrimpy.teleportbow.utils.sadlibrary.SadMessages;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import static com.sadshrimpy.teleportbow.TeleportBow.sadLibrary;
 
 public class MagicBow {
 
@@ -13,14 +17,17 @@ public class MagicBow {
     ItemMeta meta;
     ArrayList<String> lore = new ArrayList<>();
 
-    public MagicBow(Material material, String displayNameParam, boolean unbrekeableParam, ArrayList<String> loreParam) {
+    public MagicBow(Material material, String displayNameParam, boolean unbrekeableParam, List<String> loreParam) {
+        SadMessages msg = sadLibrary.messages();
         this.magicBow = new ItemStack(material);
         // META RELATED
             this.meta = this.magicBow.getItemMeta();
-            this.meta.setDisplayName(displayNameParam);
+            this.meta.setDisplayName(msg.translateColors(displayNameParam));
             this.meta.setUnbreakable(unbrekeableParam);
             // Lore
-            this.lore.addAll(loreParam);
+            loreParam.forEach(str -> {
+                this.lore.add(msg.translateColors(str));
+            });
             this.meta.setLore(this.lore);
             this.magicBow.setItemMeta(this.meta);
     }
