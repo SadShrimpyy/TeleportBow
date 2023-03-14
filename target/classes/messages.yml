@@ -33,10 +33,12 @@ player:
     # When a player receive the bow
     received: "&7Hey &e%player-name%&7, you received a &dmagic bow &7from &f%player-executor%&7."
     # When a player give the bow to another player
-    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7 to: &f%player-target%&7."
+    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7to: &f%player-target%&7."
   take:
     # When a player take a bow from his own
     bow: "&7Hey &e%player-name%&7, you have successfully obtained the &dmagic bow&7."
+    # When the console try to retrive a magic bow
+    console: "&7Hey, only the player can retrive a &dmagic bow&7!"
   arrow:
     # When the arrow has landed, and the player is being teleported
     land: "&7Hey, you have just been &fteleported&7!"

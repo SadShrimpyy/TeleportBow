@@ -20,7 +20,7 @@
 version: v1.0-Relase
 
 magic-bow:
-  name: "&dMagic &6Fantastic &Bow"
+  name: "&dMagic &6Fantastic &bBow"
   lore:
     - "&7Hm...."
     - "&7Maybe I should try to"
