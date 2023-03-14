@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/0v57pzS.png)
 
-#### SimpleFreeze
+#### TeleportBow
 Check the plugin on [SpigotMC](https://www.spigotmc.org/resources/teleportbow-teleport-yourself-with-just-a-bow.108619/ "SpigotMC.org")
 
 ## Description
@@ -22,7 +22,7 @@ A simple, Minecraft 1.8 to 1.19, plugin that allow you to teleport with just a b
 * `/teleportbow give *`: Give a brand new magic bow to all the online players
 * `/teleportbow take`: Get a brand new magic bow, all for yourself
 
-# Command alias
+### Command alias
 * `macicbow`
 * `tpbow`
 
