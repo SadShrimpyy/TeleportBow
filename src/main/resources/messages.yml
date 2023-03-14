@@ -1,0 +1,58 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# .-----------------------------------------------------------------------------. #
+# |                                                                             | #
+# |          _______   _                       _   ____                         | #
+# |         |__   __| | |                     | | |  _ \                        | #
+# |            | | ___| | ___ _ __   ___  _ __| |_| |_) | _____      __         | #
+# |            | |/ _ \ |/ _ \ '_ \ / _ \| '__| __|  _ < / _ \ \ /\ / /         | #
+# |            | |  __/ |  __/ |_) | (_) | |  | |_| |_) | (_) \ V  V /          | #
+# |            |_|\___|_|\___| .__/ \___/|_|   \__|____/ \___/ \_/\_/           | #
+# |                          | |                                                | #
+# |                          |_|                                                | #
+# |                                                                             | #
+# '-----------------------------------------------------------------------------' #
+#                                                                                 #
+#   Developed:                   My profile page:                                 #
+#   By SadShrimpy#9190 with <3 - https://www.spigotmc.org/members/shiry.583821/   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Plugin's related messages
+prefix: "&7[&cTeleport&6Bow&7] &8> &7" # Prefix of the plugin
+reloaded:
+  correctly: "&7Plugin reloaded &acorrectly&7."
+  incorrectly: "&7Plugin reloaded &cincorrectly&7."
+
+# Player's related messages
+player:
+  config:
+    # When a player try to execute a command without the right permission
+    no-permission: "&7Hey &e%player-name%&7, you &cdon't have &7the permission &8(%permission%)&7, to execute: &b%command%&7."
+    # When a player try to execute a command that isn't exist
+    cmd-not-found: "&7Hey &e%player-name%&7, sorry but the requested command &b(%command%) &cisn't &7found&7."
+  give:
+    # When a player receive the bow
+    received: "&7Hey &e%player-name%&7, you received a &dmagic bow &7from &f%player-executor%&7."
+    # When a player give the bow to another player
+    executor: "&7Hey &e%player-name%&7, you just sent a &dmagic bow &7 to: &f%player-target%&7."
+  take:
+    # When a player take a bow from his own
+    bow: "&7Hey &e%player-name%&7, you have successfully obtained the &dmagic bow&7."
+  arrow:
+    # When the arrow has landed, and the player is being teleported
+    land: "&7Hey, you have just been &fteleported&7!"
+    # When the arrow was fired
+    launched: "&7Hey, rour &dmagic arrow &7has been &cfired&7!"
+  generic:
+    # When a player try freeze a player that is not online
+    no-online: "&7Hey &e%player-name%&7, sorry there are &cno &eplayers &7present in the server."
+    # When a player try freeze a player that is not online
+    not-found: "&7Hey &e%player-name%&7, sorry but the player &f%player-target% &cisn't &7found&7."
+
+help:
+  generic: # Message shown through the help command (/freeze help)
+    - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"
+    - "&6/freeze help &8- &7view the generic help menu (this)."
+    - "&6/freeze freeze <player/*> &8- &7freezes all online players."
+    - "&6/freeze thaw <player/*> &8- &7freezes all online players."
+    - "&6/freeze reload &8- &7reload the plugin."
+    - "&7&m-------------------&7[ &cTeleport&6Bow &7]&m-------------------"

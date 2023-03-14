@@ -1,0 +1,13 @@
+name: TeleportBow
+version: '${project.version}'
+main: com.sadshrimpy.teleportbow.TeleportBow
+api-version: 1.18
+prefix: TeleportBow
+authors: [SadShrimpy]
+description: Simple plugin that allow you to be teleported with a bow!
+website: Coming Soon...
+commands:
+  teleportbow:
+    aliases:
+      - tpbow
+      - macicbow
