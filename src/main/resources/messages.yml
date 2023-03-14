@@ -41,7 +41,7 @@ player:
     console: "&7Hey, only a player can retrive a &dmagic bow&7!"
   arrow:
     # When the arrow has landed, and the player is being teleported
-    land: "&7Hey, you have just been &fteleported&7!"
+    land: "&7Hey, you have just been &fteleported&7 to: &fX:%x% Y:%y% z:%z%&7!"
     # When the arrow was fired
     launched: "&7Hey, rour &dmagic arrow &7has been &cfired&7!"
   generic:
