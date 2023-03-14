@@ -1,13 +1,12 @@
-C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\subcommands\args0\HelpSpecificCommand.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\TabCompleterManager.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\sadlibrary\SadConfigurations.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\subcommands\args0\take\TakeCommand.java
+C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\events\EventsManager.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\sadlibrary\SadPermissions.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\files\handlers\YamlHandler.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\files\defaults\MessagesFile.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\TeleportBow.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\sadlibrary\SadDate.java
-C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\MotdType.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\files\DefaultFiles.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\CommandManager.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\CommandSyntax.java
@@ -22,5 +21,6 @@ C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\subcommands\args0\ReloadCommand.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\subcommands\args0\give\GiveCommand.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\sadlibrary\SadPlaceholders.java
+C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\builders\MagicBow.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\utils\files\FilesBuilder.java
 C:\Users\Shiry\Desktop\Developing SPIGOT\Plugins DEV\GitHub\TeleportBow\src\main\java\com\sadshrimpy\teleportbow\commands\subcommands\args0\HelpCommand.java
