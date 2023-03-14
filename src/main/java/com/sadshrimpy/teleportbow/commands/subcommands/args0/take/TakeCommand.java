@@ -45,8 +45,6 @@ public class TakeCommand implements CommandSyntax {
             for (String str : msgConfig.getStringList("help.generic"))
                 sender.sendMessage(msg.viaChat(false, str));
         else {
-            Player player = Bukkit.getPlayer(args[0]);
-
             // Check the sender
             if (sender instanceof ConsoleCommandSender) {
                 sender.sendMessage(msg.viaChat(true, msgConfig.getString("player.take.console")
@@ -55,11 +53,13 @@ public class TakeCommand implements CommandSyntax {
                 return;
             }
 
+            Player player = Bukkit.getPlayer(sender.getName());
+
             // Check the target
             if (player == null) {
                 sender.sendMessage(msg.viaChat(true, msgConfig.getString("player.generic.not-found")
                         .replace(place.getPlayerName(), getSenderName(sender))
-                        .replace(place.getPlayerTarget(), args[1])));
+                        .replace(place.getPlayerTarget(), args[0])));
                 return;
             }
 
@@ -73,9 +73,8 @@ public class TakeCommand implements CommandSyntax {
                         config.getStringList("magic-bow.lore")).buildItem());
 
                 // Msg
-                player.sendMessage(msg.viaChat(true, msgConfig.getString("player.give.received")
-                        .replace(place.getPlayerName(), player.getName())
-                        .replace(place.getPlayerExecutor(), getSenderName(sender))));
+                player.sendMessage(msg.viaChat(true, msgConfig.getString("player.take.bow")
+                        .replace(place.getPlayerName(), getSenderName(sender))));
             }
         }
     }

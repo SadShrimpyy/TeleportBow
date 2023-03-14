@@ -38,7 +38,7 @@ player:
     # When a player take a bow from his own
     bow: "&7Hey &e%player-name%&7, you have successfully obtained the &dmagic bow&7."
     # When the console try to retrive a magic bow
-    console: "&7Hey, only the player can retrive a &dmagic bow&7!"
+    console: "&7Hey, only a player can retrive a &dmagic bow&7!"
   arrow:
     # When the arrow has landed, and the player is being teleported
     land: "&7Hey, you have just been &fteleported&7!"
