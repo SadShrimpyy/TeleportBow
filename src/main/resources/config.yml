@@ -26,5 +26,3 @@ magic-bow:
     - "&7Maybe I should try to"
     - "&eshoot &7an arrow..."
   unbreakable: true
-  sounds:
-    landing:
