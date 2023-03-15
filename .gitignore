@@ -24,4 +24,6 @@ hs_err_pid*
 replay_pid*
 
 # My library
+
 src/main/java/com/sadshrimpy/teleportbow/utils
+target/*

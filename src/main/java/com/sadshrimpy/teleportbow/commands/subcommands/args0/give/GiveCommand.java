@@ -38,10 +38,10 @@ public class GiveCommand implements CommandSyntax {
         SadMessages msg = sadLibrary.messages();
         SadPlaceholders place = sadLibrary.placeholders();
 
-        if (args.length <= 1) {
+        if (args.length <= 1)
             for (String str : msgConfig.getStringList("help.generic"))
                 sender.sendMessage(msg.viaChat(false, str));
-        } else {
+        else {
             ItemStack magicBow = new MagicBow(
                     Material.BOW,
                     config.getString("magic-bow.name"),
